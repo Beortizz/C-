@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TVC2_Projeto" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TVC2_Projeto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="../TVC2_Projeto" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TVC2_Projeto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="../TVC2_Projeto" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="ListaCont.cpp" />
+		<Unit filename="ListaCont.h" />
+		<Unit filename="ListaDupla.cpp" />
+		<Unit filename="ListaDupla.h" />
+		<Unit filename="ListaSimples.cpp" />
+		<Unit filename="ListaSimples.h" />
+		<Unit filename="No.h" />
+		<Unit filename="NoDuplo.h" />
+		<Unit filename="NoPilha.h" />
+		<Unit filename="Pilha.cpp" />
+		<Unit filename="Pilha.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1627072654 source:c:\users\beort\downloads\tadlistacircular\main.cpp
+	<iostream>
+	"ListaCircular.h"
+
+1627074022 c:\users\beort\downloads\tadlistacircular\listacircular.h
+	"NoDuplo.h"
+
+1626976032 c:\users\beort\downloads\tadlistacircular\noduplo.h
+
